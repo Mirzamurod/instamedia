@@ -1,0 +1,50 @@
+#review.review {
+    width: 100%;
+    border-radius: 5rem;
+    box-shadow: 0px 4px 20px 10px #7d7ddd52;
+    padding-top: 70px;
+    margin-top: -6rem;
+}
+
+#review .slider-single-content {
+    box-shadow: none !important;
+}
+
+#review .slider-single-content img {
+    border: 1px solid transparent !important;
+    border-radius: 50px !important;
+}
+
+#review .react-3d-carousel {
+    height: 400px !important;
+}
+
+#review .react-3d-carousel .slider-container .slider-left {
+    right: 120% !important;
+}
+
+#review .fa {
+    font-size: 30px;
+}
+
+#review .react-3d-carousel .slider-container .slider-right div,
+#review .react-3d-carousel .slider-container .slider-left div {
+    width: 60px !important;
+    height: 60px !important;
+    border: 1px solid transparent !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#review .react-3d-carousel .slider-container .slider-left div {
+    background-image: linear-gradient(127deg, #5223ff, #02c8ff, #5223ff);
+}
+#review .react-3d-carousel .slider-container .slider-right div {
+    background-image: linear-gradient(225deg, #5223ff, #02c8ff, #5223ff);
+}
+
+#review .react-3d-carousel .slider-container .slider-right {
+    left: 120% !important;
+}

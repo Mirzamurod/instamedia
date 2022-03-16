@@ -1,0 +1,27 @@
+#contact .contact {
+    width: 100%;
+    border-radius: 5rem;
+    box-shadow: 0px 4px 20px 10px #7d7ddd52;
+    padding-top: 70px;
+}
+
+#contact input,
+#contact textarea {
+    border-color: #5c10ff;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+#contact .red {
+    border-color: red !important;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact .btn {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

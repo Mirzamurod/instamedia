@@ -1,0 +1,57 @@
+#home.header-padding {
+    padding-top: 9rem;
+    padding-bottom: 50rem;
+}
+
+#home .instamedia {
+    font-size: 55px;
+}
+
+#home .header-text {
+    left: 21%;
+    top: 40%;
+}
+
+#home .circle {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 9rem;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #home .w-lg-100 {
+        width: 100px;
+    }
+
+    #home .fs-lg-40 {
+        font-size: 40px !important;
+    }
+
+    #home .fs-lg-16 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #home .header-text {
+        left: 26%;
+    }
+}
+
+@media (max-width: 575px) {
+    #home.header-padding {
+        padding-top: 4rem;
+    }
+
+    #home .w-lg-100 {
+        width: 100px;
+    }
+
+    #home .fs-lg-40 {
+        font-size: 40px !important;
+    }
+
+    #home .fs-lg-16 {
+        font-size: 16px !important;
+    }
+}
