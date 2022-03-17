@@ -5,7 +5,7 @@ const Case = () => {
     return (
         <div className='bg-white text-uppercase' id='case'>
             <Container className='py-5'>
-                <p className='p-bold fs-1  text-center mx-5 px-5'>
+                <p className='p-bold fs-1  text-center mx-5 px-5 fs-md-20'>
                     Первый продюсерский центр в Узбекистане, аналогов которого на рынке нет!
                 </p>
                 <Row>

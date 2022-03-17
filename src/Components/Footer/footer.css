@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    #footer .fs-md-25 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #footer .fs-md-25 {
+        font-size: 25px !important;
+    }
+}

@@ -27,3 +27,15 @@
     padding-left: 36px;
     padding-bottom: 5px;
 }
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #case .fs-md-20 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #case .fs-md-20 {
+        font-size: 18px !important;
+    }
+}

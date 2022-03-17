@@ -48,67 +48,83 @@ const Contact = () => {
     }
 
     return (
-        <div id='contact' className='px-4 pb-4'>
-            <div className='py-5 contact'>
-                <Container>
-                    <p className='text-uppercase blue-color text-center fs-1 p-bold'>
-                        оставить заявку
-                    </p>
-                    <Form className='d-flex flex-column align-items-center'>
-                        <FormGroup className='w-50 my-2'>
-                            <Input
-                                placeholder='Имя'
-                                bsSize='lg'
-                                name='name'
-                                className={checkName ? 'red' : ''}
-                                required={true}
-                                invalid={checkName}
-                                value={contact.name}
-                                onChange={e => setContact({ ...contact, name: e.target.value })}
-                            />
-                            {checkName && <FormFeedback>Name is error</FormFeedback>}
-                        </FormGroup>
-                        <FormGroup className='w-50 my-2'>
-                            <Input
-                                placeholder='Номер телефона'
-                                bsSize='lg'
-                                type='number'
-                                name='phone'
-                                className={checkPhone ? 'red' : ''}
-                                required={true}
-                                invalid={checkPhone}
-                                value={contact.phone}
-                                onChange={e => setContact({ ...contact, phone: e.target.value })}
-                            />
-                            {checkPhone && <FormFeedback>Phone is error</FormFeedback>}
-                        </FormGroup>
-                        <FormGroup className='w-50 my-2'>
-                            <Input
-                                placeholder='Комментарий'
-                                bsSize='lg'
-                                className={checkComment ? 'red' : ''}
-                                type='textarea'
-                                name='textarea'
-                                rows={4}
-                                required={true}
-                                invalid={checkComment}
-                                value={contact.comment}
-                                onChange={e => setContact({ ...contact, comment: e.target.value })}
-                            />
-                            {checkComment && <FormFeedback>Comment is error</FormFeedback>}
-                        </FormGroup>
-                        <Button
-                            size='lg'
-                            className='mt-4'
-                            color='primary'
-                            style={{ backgroundImage: 'url("/images/button.png")' }}
-                            onClick={onSubmit}
-                        >
+        <div className='position-relative'>
+            <div id='contact' className='px-4 pb-4'>
+                <div className='py-5 contact bg-white'>
+                    <Container>
+                        <p className='text-uppercase blue-color text-center fs-1 p-bold'>
                             оставить заявку
-                        </Button>
-                    </Form>
-                </Container>
+                        </p>
+                        <Form className='d-flex flex-column align-items-center'>
+                            <FormGroup className='w-50 my-2'>
+                                <Input
+                                    placeholder='Имя'
+                                    bsSize='lg'
+                                    name='name'
+                                    className={checkName ? 'red' : ''}
+                                    required={true}
+                                    invalid={checkName}
+                                    value={contact.name}
+                                    onChange={e => setContact({ ...contact, name: e.target.value })}
+                                />
+                                {checkName && <FormFeedback>Name is error</FormFeedback>}
+                            </FormGroup>
+                            <FormGroup className='w-50 my-2'>
+                                <Input
+                                    placeholder='Номер телефона'
+                                    bsSize='lg'
+                                    type='number'
+                                    name='phone'
+                                    className={checkPhone ? 'red' : ''}
+                                    required={true}
+                                    invalid={checkPhone}
+                                    value={contact.phone}
+                                    onChange={e =>
+                                        setContact({ ...contact, phone: e.target.value })
+                                    }
+                                />
+                                {checkPhone && <FormFeedback>Phone is error</FormFeedback>}
+                            </FormGroup>
+                            <FormGroup className='w-50 my-2'>
+                                <Input
+                                    placeholder='Комментарий'
+                                    bsSize='lg'
+                                    className={checkComment ? 'red' : ''}
+                                    type='textarea'
+                                    name='textarea'
+                                    rows={4}
+                                    required={true}
+                                    invalid={checkComment}
+                                    value={contact.comment}
+                                    onChange={e =>
+                                        setContact({ ...contact, comment: e.target.value })
+                                    }
+                                />
+                                {checkComment && <FormFeedback>Comment is error</FormFeedback>}
+                            </FormGroup>
+                            <Button
+                                size='lg'
+                                className='mt-4'
+                                color='primary'
+                                style={{ backgroundImage: 'url("/images/button.png")' }}
+                                onClick={onSubmit}
+                            >
+                                оставить заявку
+                            </Button>
+                        </Form>
+                    </Container>
+                </div>
             </div>
+            <div
+                className='position-absolute index-z end-0 start-0'
+                style={{
+                    backgroundImage: 'url("/images/footer.png")',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    bottom: '-17rem',
+                    top: '30rem',
+                }}
+            />
         </div>
     )
 }

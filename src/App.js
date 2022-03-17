@@ -6,6 +6,7 @@ import Review from './Components/Review/Review'
 import Application from './Components/Application/Application'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import ReviewVideo from './Components/ReviewVideo/ReviewVideo'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
             <Author />
             <Review />
             <Application />
+            <ReviewVideo />
             <Contact />
             <Footer />
         </div>

@@ -23,6 +23,10 @@
     right: 120% !important;
 }
 
+#review .react-3d-carousel .slider-container .slider-right {
+    left: 120% !important;
+}
+
 #review .fa {
     font-size: 30px;
 }
@@ -45,6 +49,92 @@
     background-image: linear-gradient(225deg, #5223ff, #02c8ff, #5223ff);
 }
 
-#review .react-3d-carousel .slider-container .slider-right {
-    left: 120% !important;
+.reviewvideo {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.video {
+    height: 350px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #review .react-3d-carousel .slider-container .slider-right div,
+    #review .react-3d-carousel .slider-container .slider-left div {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    #review .fa {
+        font-size: 25px;
+    }
+
+    .video {
+        height: 250px;
+    }
+
+    #review .slider-single-content img {
+        border-radius: 40px !important;
+    }
+
+    #review .react-3d-carousel {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #review .react-3d-carousel .slider-container .slider-right div,
+    #review .react-3d-carousel .slider-container .slider-left div {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    #review .fa {
+        font-size: 25px;
+    }
+
+    .video {
+        height: 200px;
+    }
+
+    #review .slider-single-content img {
+        border-radius: 30px !important;
+    }
+
+    #review .react-3d-carousel {
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .video {
+        height: 180px;
+    }
+
+    #review .react-3d-carousel .slider-container .slider-right div,
+    #review .react-3d-carousel .slider-container .slider-left div {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    #review .react-3d-carousel .slider-container .slider-left {
+        right: 110% !important;
+    }
+
+    #review .react-3d-carousel .slider-container .slider-right {
+        left: 110% !important;
+    }
+
+    #review.reviewvideo .react-3d-carousel {
+        height: 300px !important;
+    }
+
+    #review .react-3d-carousel {
+        height: 225px !important;
+    }
+
+    .reviewvideo {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
 }
