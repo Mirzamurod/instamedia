@@ -44,3 +44,9 @@
         font-size: 12px !important;
     }
 }
+
+@media (max-width: 575px) {
+    #application .fs-3 {
+        font-size: 15px !important;
+    }
+}

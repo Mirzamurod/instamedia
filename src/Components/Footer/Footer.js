@@ -15,7 +15,7 @@ const Footer = () => {
                     { icon: 'email', link: '/' },
                 ].map((icon, index) => (
                     <a href={icon.link} className='mx-2' key={index}>
-                        <img src={`/images/${icon.icon}.svg`} alt='svg' width={50} />
+                        <img src={`/images/${icon.icon}.svg`} alt='svg' />
                     </a>
                 ))}
             </div>

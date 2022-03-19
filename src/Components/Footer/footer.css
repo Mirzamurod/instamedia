@@ -1,3 +1,7 @@
+#footer img {
+    width: 50px;
+}
+
 @media (max-width: 991px) and (min-width: 768px) {
     #footer .fs-md-25 {
         font-size: 25px !important;
@@ -8,10 +12,18 @@
     #footer .fs-md-25 {
         font-size: 20px !important;
     }
+
+    #footer img {
+        width: 40px;
+    }
 }
 
 @media (max-width: 575px) {
     #footer .fs-md-25 {
-        font-size: 16px !important;
+        font-size: 15px !important;
+    }
+
+    #footer img {
+        width: 35px;
     }
 }
