@@ -41,7 +41,7 @@ const Header = () => {
                             className='circle text-center'
                             style={{ backgroundImage: 'url("/images/circle.png")' }}
                         >
-                            <img src='/images/mirsaid.png' alt='rasm' />
+                            <img src='/images/mirsaid.png' alt='rasm' className='w-image' />
                         </div>
                     </Col>
                 </Row>

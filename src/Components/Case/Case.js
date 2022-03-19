@@ -5,7 +5,7 @@ const Case = () => {
     return (
         <div className='bg-white text-uppercase' id='case'>
             <Container className='py-5'>
-                <p className='p-bold fs-1  text-center mx-5 px-5 fs-md-20'>
+                <p className='p-bold fs-3 text-center mx-lg-5 px-md-5 fs-md-20'>
                     Первый продюсерский центр в Узбекистане, аналогов которого на рынке нет!
                 </p>
                 <Row>
@@ -14,7 +14,7 @@ const Case = () => {
                             className='bg-left p-4 h-100 d-flex flex-column'
                             style={{ backgroundImage: 'url("/images/bg-left.png")' }}
                         >
-                            <p className='fs-3 line position-relative p-semi-bold'>
+                            <p className='fs-4 line position-relative p-semi-bold'>
                                 Наши услуги включают в себя:
                             </p>
                             <div className='my-auto'>
@@ -41,7 +41,7 @@ const Case = () => {
                             className='bg-right p-4 h-100'
                             style={{ backgroundImage: 'url("/images/bg-right.png")' }}
                         >
-                            <p className='fs-3 line position-relative p-semi-bold'>
+                            <p className='fs-4 line position-relative p-semi-bold'>
                                 На данный момент мы сотрудничаем с экспертами в разных сферах:
                             </p>
                             {[

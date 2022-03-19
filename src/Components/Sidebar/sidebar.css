@@ -1,3 +1,15 @@
 #navbar div[data-nav='list'] {
     margin: 0 auto;
 }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #navbar .fs-5 {
+        font-size: 17px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    #navbar .fs-5 {
+        font-size: 14px !important;
+    }
+}
