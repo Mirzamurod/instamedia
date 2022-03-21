@@ -1,104 +1,29 @@
-#contact .contact {
-    width: 100%;
-    border-radius: 5rem;
-    box-shadow: 0px 4px 20px 10px #7d7ddd52;
-    padding-top: 70px;
-}
-
-#contact input,
-#contact textarea {
-    border-color: #5c10ff;
-    border-width: 3px;
-    border-radius: 10px;
-}
-
-#contact .red {
-    border-color: red !important;
-}
-
-#contact textarea {
-    resize: none;
-}
-
-#contact .btn {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#contact .footer-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    bottom: -17rem;
-    top: 27rem;
-}
-
-@media (max-width: 1199px) and (min-width: 992px) {
-    #contact .contact {
-        border-radius: 3rem;
-    }
-
-    #contact .fs-1 {
-        font-size: 21px !important;
-    }
-
-    #contact .footer-image {
-        top: 27rem;
-    }
+#contact img {
+    width: 50px;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    #contact .contact {
-        border-radius: 2rem;
-    }
-
-    #contact .fs-1 {
-        font-size: 21px !important;
-    }
-
-    #contact .w-50 {
-        width: 75% !important;
-    }
-
-    #contact .footer-image {
-        top: 26rem;
+    #contact .fs-md-25 {
+        font-size: 25px !important;
     }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
-    #contact .contact {
-        border-radius: 2rem;
+    #contact .fs-md-25 {
+        font-size: 20px !important;
     }
 
-    #contact .fs-1 {
-        font-size: 18px !important;
-    }
-
-    #contact .w-50 {
-        width: 80% !important;
-    }
-
-    #contact .footer-image {
-        top: 26.5rem;
-        bottom: -14rem;
+    #contact img {
+        width: 40px;
     }
 }
 
 @media (max-width: 575px) {
-    #contact .contact {
-        border-radius: 1.5rem;
+    #contact .fs-md-25 {
+        font-size: 15px !important;
     }
 
-    #contact .fs-1 {
-        font-size: 18px !important;
-    }
-
-    #contact .w-50 {
-        width: 90% !important;
-    }
-
-    #contact .footer-image {
-        top: 26.5rem;
-        bottom: -14rem;
+    #contact img {
+        width: 35px;
     }
 }

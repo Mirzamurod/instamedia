@@ -25,6 +25,7 @@ const Header = () => {
                             </div>
                         </div>
                         <Button
+                            href='#application'
                             color='primary'
                             className='text-uppercase bg-transparent border-0 ms-5 mt-5 p-lg-3 p-medium'
                             style={{

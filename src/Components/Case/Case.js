@@ -1,69 +1,56 @@
-import { Col, Container, Row } from 'reactstrap'
+import { Carousel } from '3d-react-carousal'
+import { Container } from 'reactstrap'
 import './case.css'
 
 const Case = () => {
+    const slides = [
+        <div>
+            <a href='https://www.instagram.com/dilrabo_isroilova/'>
+                <img src='/images/2.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/shahnoza.psixolog/'>
+                <img src='/images/3.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/isfandiyor/'>
+                <img src='/images/4.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/raha_shadiev/'>
+                <img src='/images/5.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/sher.legal/'>
+                <img src='/images/6.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/risolatumidovnaa/'>
+                <img src='/images/7.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/djuraevstudio/'>
+                <img src='/images/8.png' alt='1' />
+            </a>
+        </div>,
+        <div>
+            <a href='https://www.instagram.com/azizovinvest/'>
+                <img src='/images/9.png' alt='1' />
+            </a>
+        </div>,
+    ]
+
     return (
-        <div className='bg-white text-uppercase' id='case'>
-            <Container className='py-5'>
-                <p className='p-bold fs-3 text-center mx-lg-5 px-md-5 fs-md-20'>
-                    Первый продюсерский центр в Узбекистане, аналогов которого на рынке нет!
-                </p>
-                <Row>
-                    <Col lg='6' className='text-white pe-lg-5 pb-lg-0 pb-3'>
-                        <div
-                            className='bg-left p-4 h-100 d-flex flex-column'
-                            style={{ backgroundImage: 'url("/images/bg-left.png")' }}
-                        >
-                            <p className='fs-4 line position-relative p-semi-bold'>
-                                Наши услуги включают в себя:
-                            </p>
-                            <div className='my-auto'>
-                                {[
-                                    'Комплексное продвижение вашего личного бренда.',
-                                    'Запуск курсов, марафонов и т.д',
-                                    'Раскрытие личности и экспертности',
-                                    'Прогревы и автоворонки',
-                                    'Упаковка профиля и многое другое',
-                                ].map((text, index) => (
-                                    <p
-                                        key={index}
-                                        className='case p-semi-bold'
-                                        style={{ backgroundImage: 'url("/images/hexagon.png")' }}
-                                    >
-                                        {text}
-                                    </p>
-                                ))}
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg='6' className='text-white ps-lg-5 pt-lg-0 pt-3'>
-                        <div
-                            className='bg-right p-4 h-100'
-                            style={{ backgroundImage: 'url("/images/bg-right.png")' }}
-                        >
-                            <p className='fs-4 line position-relative p-semi-bold'>
-                                На данный момент мы сотрудничаем с экспертами в разных сферах:
-                            </p>
-                            {[
-                                'Лайфстайл блогеры',
-                                'Психологи',
-                                'Юристы',
-                                'Трейдеры',
-                                'Косметологи',
-                                'Фотографы',
-                                'Предпринимателями и т.д.',
-                            ].map((text, index) => (
-                                <p
-                                    key={index}
-                                    className='case p-semi-bold'
-                                    style={{ backgroundImage: 'url("/images/hexagon.png")' }}
-                                >
-                                    {text}
-                                </p>
-                            ))}
-                        </div>
-                    </Col>
-                </Row>
+        <div id='case' className='review pb-sm-5 pb-4'>
+            <Container>
+                <p className='text-uppercase text-center blue-color fs-1 p-bold'>кейсы</p>
+                <Carousel slides={slides} interval={3000} autoplay />
             </Container>
         </div>
     )

@@ -1,0 +1,94 @@
+#home1.bg-white {
+    width: 100%;
+    border-radius: 5rem;
+    margin-top: -50rem;
+    box-shadow: 0px 4px 20px 10px #7d7ddd52;
+}
+
+#home1 .bg-left,
+#home1 .bg-right {
+    border-radius: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home1 .line::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    height: 4px;
+    background: #fff;
+}
+
+#home1 .case {
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 36px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    #home1.bg-white {
+        border-radius: 38px;
+    }
+
+    #home1 .fs-3 {
+        font-size: 21px !important;
+    }
+
+    #home1 .fs-4 {
+        font-size: 18px !important;
+    }
+
+    #home1 .case {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #home1.bg-white {
+        border-radius: 2rem !important;
+    }
+
+    #home1 .fs-3 {
+        font-size: 21px !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    #home1.bg-white {
+        border-radius: 2rem;
+    }
+
+    #home1 .fs-md-20 {
+        font-size: 17px !important;
+    }
+
+    #home1 .bg-left,
+    #home1 .bg-right {
+        border-radius: 2rem;
+    }
+
+    #home1 .fs-4 {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #home1.bg-white {
+        border-radius: 1.5rem;
+    }
+
+    #home1 .fs-md-20 {
+        font-size: 12px !important;
+    }
+
+    #home1 .fs-4 {
+        font-size: 14px !important;
+    }
+
+    #home1 .case {
+        font-size: 14px;
+    }
+}

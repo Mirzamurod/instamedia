@@ -1,52 +1,104 @@
-#application.application {
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: cover;
+#application .contact {
+    width: 100%;
+    border-radius: 5rem;
+    box-shadow: 0px 4px 20px 10px #7d7ddd52;
+    padding-top: 70px;
 }
 
-#application .instagram {
-    background-image: linear-gradient(270deg, white, #ffffffb8);
-    box-shadow: 0px 0px 20px 20px #ffffffb8;
+#application input,
+#application textarea {
+    border-color: #5c10ff;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+#application .red {
+    border-color: red !important;
+}
+
+#application textarea {
+    resize: none;
+}
+
+#application .btn {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#application .footer-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: -17rem;
+    top: 27rem;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-    #application .fs-3 {
-        font-size: 22px !important;
+    #application .contact {
+        border-radius: 3rem;
     }
 
-    #application .fs-4 {
-        font-size: 18px !important;
+    #application .fs-1 {
+        font-size: 21px !important;
+    }
+
+    #application .footer-image {
+        top: 27rem;
     }
 }
 
-@media (max-width: 991px) {
-    #application img.w-100 {
+@media (max-width: 991px) and (min-width: 768px) {
+    #application .contact {
+        border-radius: 2rem;
+    }
+
+    #application .fs-1 {
+        font-size: 21px !important;
+    }
+
+    #application .w-50 {
         width: 75% !important;
+    }
+
+    #application .footer-image {
+        top: 26rem;
     }
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
-    #application .fs-3 {
-        font-size: 22px !important;
+    #application .contact {
+        border-radius: 2rem;
     }
 
-    #application .fs-4 {
+    #application .fs-1 {
         font-size: 18px !important;
     }
-}
 
-@media (max-width: 767px) {
-    #application .fs-3 {
-        font-size: 16px !important;
+    #application .w-50 {
+        width: 80% !important;
     }
 
-    #application .fs-4 {
-        font-size: 12px !important;
+    #application .footer-image {
+        top: 26.5rem;
+        bottom: -14rem;
     }
 }
 
 @media (max-width: 575px) {
-    #application .fs-3 {
-        font-size: 15px !important;
+    #application .contact {
+        border-radius: 1.5rem;
+    }
+
+    #application .fs-1 {
+        font-size: 18px !important;
+    }
+
+    #application .w-50 {
+        width: 90% !important;
+    }
+
+    #application .footer-image {
+        top: 26.5rem;
+        bottom: -14rem;
     }
 }
