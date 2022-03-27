@@ -9,6 +9,14 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
+a {
+    text-decoration: none;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
 .p-light {
     font-weight: 300 !important;
 }
@@ -39,4 +47,16 @@ body {
 
 .index-z {
     z-index: -1;
+}
+
+.color-black {
+    color: #252e5b !important;
+}
+
+.color-black:hover {
+    color: #252e5b !important;
+}
+
+.color-gray {
+    color: #656d91 !important;
 }

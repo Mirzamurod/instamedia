@@ -40,9 +40,14 @@ const Header = () => {
                     <Col lg='6' md='12'>
                         <div
                             className='circle text-center'
-                            style={{ backgroundImage: 'url("/images/circle.png")' }}
+                            // style={{ backgroundImage: 'url("/images/circle.png")' }}
                         >
-                            <img src='/images/mirsaid.png' alt='rasm' className='w-image' />
+                            <img
+                                src='/images/newheader.png'
+                                alt='rasm'
+                                width='100%'
+                                className='w-image'
+                            />
                         </div>
                     </Col>
                 </Row>

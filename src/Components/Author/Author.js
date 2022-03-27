@@ -21,7 +21,7 @@ const Author = () => {
                                     backgroundPosition: 'center center',
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
-                                    bottom: '17%',
+                                    bottom: '0',
                                     left: '30%',
                                 }}
                             >
@@ -30,42 +30,19 @@ const Author = () => {
                         </div>
                     </Col>
                     <Col lg='6' className='instagram mt-3'>
-                        <p className='fs-3 p-bold'>mirodilov.mirsaid</p>
-                        <div className='d-flex align-items-center mb-4'>
-                            <img
-                                src='/images/instagram.jpg'
-                                alt='rasm'
-                                className='border rounded-pill w-25'
-                            />
-                            {[
-                                { num: 64, text: 'публикаций' },
-                                { num: 8775, text: 'подписчиков' },
-                                { num: 81, text: 'подписок' },
-                            ].map((item, index) => (
-                                <div
-                                    key={index}
-                                    className='mx-xl-3 mx-lg-1 mx-md-3 mx-sm-1 mx-1 w-25'
-                                >
-                                    <p className='fs-3 p-bold mb-0 text-center'>{item.num}</p>
-                                    <p className='text-truncate fs-4 text-capitalize p-semi-bold'>
-                                        {item.text}
-                                    </p>
-                                </div>
-                            ))}
-                        </div>
-                        <p className='fs-3 p-bold mb-0'>МИРСАИД | ПРОДЮСЕР №1 в УЗБ🇺🇿</p>
-                        <p className='fs-4 mb-0 p-semi-bold'>Личный блог</p>
-                        <p className='fs-4 p-semi-bold'>
-                            💻От СММ-проектов до полноценного
-                            <br />
-                            бизнеса в сфере продюсирования
+                        <p className='fs-4 p-semi-bold mt-md-5 px-md-4 p-sm-2 p-1'>
+                            Первый продюсерский центр в Узбекистане во главе с @mirodilov.mirsaid ,
+                            аналогов которого на рынке нет
                         </p>
-                        <p className='fs-4 p-semi-bold'>
-                            💰Сделал с клиентами 200 000$+
-                            <br />
-                            за год на запусках инфопродуктов
+                        <p className='fs-4 p-semi-bold px-md-4 p-sm-2 p-1'>
+                            прокачаем ваш личный бренд - создадим и запустим ваш авторский курс,
+                            марафон, тренинг в онлайн/оффлайн формате, выстроим онлайн школу,
+                            структура запуска, прогревы и запустим от 10.000$ ежемесячно
                         </p>
-                        <p className='fs-4 p-semi-bold'>🚘2 машины в 18 лет</p>
+                        <p className='fs-4 p-semi-bold px-md-4 p-sm-2 p-1'>
+                            Наша команда берет весь процесс продвижения в свои руки, а также
+                            регулярно стремится к сверхувеличению дохода наших партнеров
+                        </p>
                     </Col>
                 </Row>
             </Container>

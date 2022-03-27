@@ -32,7 +32,7 @@ const Sidebar = () => {
                 <Nav className='text-uppercase' navbar>
                     {menus.map((menu, index) => (
                         <NavItem key={index}>
-                            <NavLink href={menu.id} className={'text-white fw-bold fs-5'}>
+                            <NavLink href={menu.id} className={'text-white fw-bold fs-5 mx-md-3'}>
                                 {menu.name}
                             </NavLink>
                         </NavItem>

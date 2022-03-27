@@ -44,6 +44,11 @@ const Case = () => {
                 <img src='/images/9.png' alt='1' />
             </a>
         </div>,
+        <div>
+            <a href='https://www.instagram.com/ov_cosmetology/'>
+                <img src='/images/10.png' alt='1' />
+            </a>
+        </div>,
     ]
 
     return (

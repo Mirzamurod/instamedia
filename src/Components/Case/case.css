@@ -3,7 +3,6 @@
     border-radius: 5rem;
     box-shadow: 0px 4px 20px 10px #7d7ddd52;
     padding-top: 70px;
-    margin-top: -6rem;
 }
 
 #case .slider-single-content,
@@ -59,11 +58,11 @@
 }
 
 .video {
-    height: 350px;
+    height: 550px;
 }
 
 #review.reviewvideo .react-3d-carousel {
-    height: 22rem !important;
+    height: 32rem !important;
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -77,7 +76,7 @@
     }
 
     #review.reviewvideo .react-3d-carousel {
-        height: 20rem !important;
+        height: 32rem !important;
     }
 
     .react-3d-carousel .slider-container .slider-left div {
@@ -109,7 +108,7 @@
     }
 
     .video {
-        height: 250px;
+        height: 35rem;
     }
 
     #case .slider-single-content img {
@@ -142,7 +141,7 @@
 
     .reviewvideo .react-3d-carousel .slider-container .slider-right,
     .reviewvideo .react-3d-carousel .slider-container .slider-left {
-        top: calc(50% - 80px) !important;
+        top: calc(50% - 15rem) !important;
     }
 
     #case .fa,
@@ -151,11 +150,12 @@
     }
 
     .video {
-        height: 200px;
+        height: 500px;
     }
 
     .reviewvideo {
         padding-top: 5rem;
+        padding-bottom: 3rem;
     }
 
     .reviewvideo .react-3d-carousel {
@@ -173,13 +173,17 @@
         padding-top: 40px;
     }
 
+    #case .slider-single-content img {
+        border-radius: 10px !important;
+    }
+
     #case .fs-1,
     #review .fs-1 {
         font-size: 18px !important;
     }
 
     .video {
-        height: 150px;
+        height: 18rem;
     }
 
     #case .fa,
@@ -207,11 +211,11 @@
 
     #review.reviewvideo .slider-left,
     #review.reviewvideo .slider-right {
-        top: calc(50% - 57px);
+        top: calc(50% - 7.5rem);
     }
 
     #review.reviewvideo .react-3d-carousel {
-        height: 250px !important;
+        height: 20rem !important;
     }
 
     .reviewvideo {

@@ -18,6 +18,10 @@
     background-position: center 9rem;
 }
 
+#home .w-lg-100 {
+    width: 26%;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
     #home .w-lg-100 {
         width: 100px;
@@ -32,7 +36,7 @@
     }
 
     #home .w-image {
-        width: 70% !important;
+        width: 100% !important;
     }
 }
 
@@ -43,6 +47,10 @@
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
+    #home {
+        background-size: contain;
+    }
+
     #home.header-padding {
         padding-top: 5rem;
     }
@@ -52,13 +60,17 @@
     }
 
     #home .w-image {
-        width: 65% !important;
+        width: 80% !important;
     }
 }
 
 @media (max-width: 575px) {
+    #home {
+        background-size: contain;
+    }
+
     #home .w-image {
-        width: 60% !important;
+        width: 80% !important;
     }
 
     #home.header-padding {

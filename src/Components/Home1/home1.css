@@ -28,21 +28,87 @@
     padding-bottom: 5px;
 }
 
+#home1 .fs-15 {
+    font-size: 15px;
+}
+
+#home1 .home1 {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#home1 .home1 .fs-1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5.5rem !important;
+}
+
+#home1 .number {
+    margin-right: 5rem;
+    margin-left: 3rem;
+}
+
+#home1 .number.first {
+    margin-right: 3rem;
+    margin-left: -1rem;
+}
+
+#home1 .ms-3.first {
+    margin-left: 4rem !important;
+}
+
+#home1 .py-sm-5.first {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+}
+
+#home1 .py-sm-5 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+#home1 .w-img-50 {
+    width: 34px;
+}
+
+#home1 a > p {
+    font-size: 21px !important;
+}
+
 @media (max-width: 1199px) and (min-width: 992px) {
     #home1.bg-white {
         border-radius: 38px;
     }
 
-    #home1 .fs-3 {
+    #home1 .fs-2 {
         font-size: 21px !important;
     }
 
-    #home1 .fs-4 {
+    #home1 .fs-5 {
         font-size: 18px !important;
     }
 
     #home1 .case {
         font-size: 15px !important;
+    }
+
+    #home1 .number.first {
+        margin-left: -3rem;
+    }
+
+    #home1 .number {
+        margin-right: 5.5rem;
+        margin-left: 0rem;
+    }
+
+    #home1 .number .fs-1 {
+        margin-top: -8px;
+    }
+
+    #home1 .py-43 {
+        padding-top: 4.3rem !important;
+        padding-bottom: 4.3rem !important;
     }
 }
 
@@ -51,8 +117,25 @@
         border-radius: 2rem !important;
     }
 
-    #home1 .fs-3 {
+    #home1 .fs-2 {
         font-size: 21px !important;
+    }
+
+    #home1 .fs-5 {
+        font-size: 15px !important;
+    }
+
+    #home1 .number.first {
+        margin-left: 2rem !important;
+    }
+
+    #home1 .ms-3.first {
+        margin-left: 3rem !important;
+    }
+
+    #home1 .ms-3,
+    #home1 .number {
+        margin-left: 1rem;
     }
 }
 
@@ -62,7 +145,7 @@
     }
 
     #home1 .fs-md-20 {
-        font-size: 17px !important;
+        font-size: 25px !important;
     }
 
     #home1 .bg-left,
@@ -70,8 +153,39 @@
         border-radius: 2rem;
     }
 
-    #home1 .fs-4 {
-        font-size: 18px !important;
+    #home1 .fs-5 {
+        font-size: 12px !important;
+    }
+
+    #home1 a > p {
+        margin-bottom: 0;
+        font-size: 12px !important;
+    }
+
+    #home1 .home1 .fs-1 {
+        font-size: 3.5rem !important;
+    }
+
+    #home1 .number.first {
+        margin-right: 4rem !important;
+        margin-left: 0rem !important;
+    }
+
+    #home1 .ms-3.first {
+        margin-left: 0rem !important;
+    }
+
+    #home1 .number {
+        margin-right: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    #home1 .ms-3 {
+        margin-left: 3rem !important;
+    }
+
+    #home1 .w-img-50 {
+        width: 20px;
     }
 }
 
@@ -81,14 +195,50 @@
     }
 
     #home1 .fs-md-20 {
-        font-size: 12px !important;
+        font-size: 15px !important;
     }
 
-    #home1 .fs-4 {
-        font-size: 14px !important;
+    #home1 .fs-5 {
+        font-size: 7px !important;
+        margin-bottom: 0 !important;
+    }
+
+    #home1 a > p {
+        margin-bottom: 0;
+        font-size: 10px !important;
+    }
+
+    #home1 .number.first {
+        margin-right: 0rem !important;
+        margin-left: 2.5rem !important;
+    }
+
+    #home1 .ms-3.first {
+        margin-left: 2.5rem !important;
+    }
+
+    #home1 .number {
+        margin-right: 2rem !important;
+        margin-left: 1rem !important;
+    }
+
+    #home1 .ms-3 {
+        margin-left: 0rem !important;
+    }
+
+    #home1 .w-img-50 {
+        width: 18px;
+    }
+
+    #home1 .home1 .fs-1 {
+        font-size: 2rem !important;
     }
 
     #home1 .case {
         font-size: 14px;
+    }
+
+    #home1 .py-sm-5 {
+        padding: 20px 0;
     }
 }
