@@ -199,18 +199,18 @@
     }
 
     #home1 .fs-5 {
-        font-size: 7px !important;
+        font-size: 2.2vw !important;
         margin-bottom: 0 !important;
     }
 
     #home1 a > p {
         margin-bottom: 0;
-        font-size: 10px !important;
+        font-size: 3vw !important;
     }
 
     #home1 .number.first {
         margin-right: 0rem !important;
-        margin-left: 2.5rem !important;
+        margin-left: 3rem !important;
     }
 
     #home1 .ms-3.first {
@@ -218,8 +218,8 @@
     }
 
     #home1 .number {
-        margin-right: 2rem !important;
-        margin-left: 1rem !important;
+        margin-right: 2.5rem !important;
+        margin-left: 0.5rem !important;
     }
 
     #home1 .ms-3 {
@@ -231,7 +231,7 @@
     }
 
     #home1 .home1 .fs-1 {
-        font-size: 2rem !important;
+        font-size: 10vw !important;
     }
 
     #home1 .case {
@@ -240,5 +240,17 @@
 
     #home1 .py-sm-5 {
         padding: 20px 0;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 500px) {
+    #home1 .number.first {
+        margin-right: 1rem !important;
+        margin-left: 2rem !important;
+    }
+
+    #home1 .number {
+        margin-right: 3.5rem !important;
+        margin-left: 0.5rem !important;
     }
 }
