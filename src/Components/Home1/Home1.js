@@ -41,10 +41,11 @@ const Home1 = () => {
                                             >
                                                 <p>TikTok</p>
                                                 <img
-                                                    src='/images/instagram1.svg'
+                                                    src='/images/tiktok.svg'
                                                     alt='rasm'
-                                                    className='w-img-50'
+                                                    className='w-img-50 tiktok'
                                                 />
+                                                {/* <i className='fa-brands fa-tiktok w-img-50' /> */}
                                             </a>
                                         </Col>
                                         <Col className='col-6'>
@@ -65,7 +66,7 @@ const Home1 = () => {
                                             >
                                                 <p>Youtube</p>
                                                 <img
-                                                    src='/images/telegram1.svg'
+                                                    src='/images/youtube.svg'
                                                     alt='rasm'
                                                     className='w-img-50'
                                                 />

@@ -64,13 +64,17 @@
 }
 
 #home1 .py-sm-5 {
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    padding-top: 3.5rem !important;
+    padding-bottom: 4.5rem !important;
 }
 
 #home1 .w-img-50 {
     width: 34px;
 }
+/* 
+#home1 .w-img-50.tiktok {
+    width: 25px;
+} */
 
 #home1 a > p {
     font-size: 21px !important;
@@ -209,17 +213,17 @@
     }
 
     #home1 .number.first {
-        margin-right: 0rem !important;
-        margin-left: 3rem !important;
+        margin-right: 0vw !important;
+        margin-left: 12.5vw !important;
     }
 
     #home1 .ms-3.first {
-        margin-left: 2.5rem !important;
+        margin-left: 11vw !important;
     }
 
     #home1 .number {
-        margin-right: 2.5rem !important;
-        margin-left: 0.5rem !important;
+        margin-right: 10vw !important;
+        margin-left: 4vw !important;
     }
 
     #home1 .ms-3 {
@@ -245,8 +249,8 @@
 
 @media (max-width: 575px) and (min-width: 500px) {
     #home1 .number.first {
-        margin-right: 1rem !important;
-        margin-left: 2rem !important;
+        margin-right: 1vw !important;
+        margin-left: 7vw !important;
     }
 
     #home1 .number {
