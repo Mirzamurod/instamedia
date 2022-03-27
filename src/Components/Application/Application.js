@@ -8,7 +8,7 @@ const Application = () => {
     const [checkPhone, setCheckPhone] = useState(false)
 
     const token = '5155255378:AAGVURogmDZG8H5FaF8CgoqwyJvcNImAs7k'
-    const chat_id = -683368518
+    const chat_id = -1001658217882
 
     const onSubmit = e => {
         e.preventDefault()

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10465a6e-31b3-4883-82cc-0d7e4871a79a" name="instamedia">
+        <fileTransfer accessType="SFTP" host="62.109.22.161" port="22" sshConfigId="101b3c28-7da7-482c-95f9-8d6873ee3756" sshConfig="root@62.109.22.161:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
