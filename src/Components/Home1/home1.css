@@ -71,10 +71,6 @@
 #home1 .w-img-50 {
     width: 34px;
 }
-/* 
-#home1 .w-img-50.tiktok {
-    width: 25px;
-} */
 
 #home1 a > p {
     font-size: 21px !important;
@@ -199,7 +195,7 @@
     }
 
     #home1 .fs-md-20 {
-        font-size: 15px !important;
+        font-size: 21px !important;
     }
 
     #home1 .fs-5 {
@@ -242,19 +238,39 @@
         font-size: 14px;
     }
 
+    #home1 .py-sm-5.first {
+        padding-top: 1.7rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
     #home1 .py-sm-5 {
-        padding: 20px 0;
+        padding-top: 10vw !important;
+        padding-bottom: 10vw !important;
+    }
+
+    #home1 .w-img-50 {
+        width: 21px;
     }
 }
 
 @media (max-width: 575px) and (min-width: 500px) {
     #home1 .number.first {
         margin-right: 1vw !important;
-        margin-left: 7vw !important;
+        margin-left: 11vw !important;
     }
 
     #home1 .number {
-        margin-right: 3.5rem !important;
-        margin-left: 0.5rem !important;
+        margin-right: 12vw !important;
+        margin-left: 5vw !important;
+    }
+
+    #home1 .py-sm-5.first {
+        padding-top: 3rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+
+    #home1 .py-sm-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3.4rem !important;
     }
 }

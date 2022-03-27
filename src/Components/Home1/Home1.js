@@ -45,7 +45,6 @@ const Home1 = () => {
                                                     alt='rasm'
                                                     className='w-img-50 tiktok'
                                                 />
-                                                {/* <i className='fa-brands fa-tiktok w-img-50' /> */}
                                             </a>
                                         </Col>
                                         <Col className='col-6'>
@@ -86,7 +85,14 @@ const Home1 = () => {
                                 <div className='number'>
                                     <p className='fs-1 p-bold'>2</p>
                                 </div>
-                                <div className='text-uppercase fs-5 ms-3 text-start'>
+                                <div
+                                    className='text-uppercase fs-5 ms-3 text-start'
+                                    style={{
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        placeSelf: 'center',
+                                    }}
+                                >
                                     <p className='p-bold'>
                                         Продюсирование экспертов и блогеров
                                         <br />
