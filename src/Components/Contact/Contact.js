@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <Container className='py-5 mt-auto' id='contact'>
             <p className='text-white fs-2 text-center p-bold fs-md-25'>
-                Свяжитесь с нами и мы ответим на <br /> все Ваши вопросы
+                Свяжитесь с нами и мы ответим на <br /> все ваши вопросы
             </p>
             <div className='d-flex justify-content-center'>
                 {[

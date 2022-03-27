@@ -59,6 +59,7 @@
 
 .video {
     height: 550px;
+    border: 1px solid #5c10ff;
 }
 
 #review.reviewvideo .react-3d-carousel {

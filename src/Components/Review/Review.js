@@ -3,11 +3,11 @@ import { Container } from 'reactstrap'
 
 const Review = () => {
     const slides = [
-        <video controls width='auto' className='video'>
+        <video controls width='auto' className='video' poster='/images/video1.png'>
             <source src='/videos/video1.MOV' type='video/mp4' />
             Your browser does not support HTML video.
         </video>,
-        <video controls width='auto' className='video'>
+        <video controls width='auto' className='video' poster='/images/video2.png'>
             <source src='/videos/video2.MOV' type='video/mp4' />
             Your browser does not support HTML video.
         </video>,
