@@ -46,7 +46,7 @@
 
 #home1 .number {
     margin-right: 5rem;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
 }
 
 #home1 .number.first {
@@ -187,6 +187,10 @@
     #home1 .w-img-50 {
         width: 20px;
     }
+
+    #home1 .py-sm-5 {
+        padding-top: 4rem !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -218,7 +222,7 @@
     }
 
     #home1 .number {
-        margin-right: 10vw !important;
+        margin-right: 11vw !important;
         margin-left: 4vw !important;
     }
 
